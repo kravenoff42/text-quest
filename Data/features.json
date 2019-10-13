@@ -1,0 +1,2381 @@
+{
+  "Cleric":[
+  {
+    "_id": "5bce912c5b7768e792017ef5",
+    "index": 71,
+    "name": "Spellcasting",
+    "level": 1,
+    "reference": "http://www.dnd5eapi.co/api/spellcasting/cleric",
+    "url": "http://www.dnd5eapi.co/api/features/71",
+    "desc": ["As a conduit for divine power, you can cast cleric spells."],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/3", "name": "Cleric" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017ef7",
+    "index": 72,
+    "name": "Divine Domain",
+    "level": 1,
+    "url": "http://www.dnd5eapi.co/api/features/72",
+    "desc": [
+      "Choose one domain related to your deity: Knowledge, Life, Light, Nature, Tempest, Trickery, or War. Only the Life domain is detailed in the Open Game Licensed SRD. Additional Domains are described in the official rule books or products from other publishers.",
+      "Your domain grants you domain spells and other features when you choose it at 1st level. It also grants you additional ways to use Channel Divinity when you gain that feature at 2nd level, and additional benefits at 6th, 8th, and 17th levels."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/3", "name": "Cleric" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017ef6",
+    "index": 73,
+    "name": "Domain Spells 1",
+    "level": 1,
+    "url": "http://www.dnd5eapi.co/api/features/73",
+    "desc": [
+      "Each domain has a list of spells, its domain spells, that you gain at the cleric levels noted in the domain description. Once you gain a domain spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day.",
+      "If you have a domain spell that doesn't appear on the cleric spell list, the spell is nonetheless a cleric spell for you."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/3", "name": "Cleric" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017ef8",
+    "index": 74,
+    "name": "Bonus Proficiency",
+    "level": 1,
+    "url": "http://www.dnd5eapi.co/api/features/74",
+    "desc": [
+      "When you choose this domain at 1st level, you gain proficiency with heavy armor."
+    ],
+    "subclass": {
+      "url": "http://www.dnd5eapi.co/api/subclasses/3",
+      "name": "Life"
+    },
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/3", "name": "Cleric" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017ef9",
+    "index": 75,
+    "name": "Disciple of Life",
+    "level": 1,
+    "url": "http://www.dnd5eapi.co/api/features/75",
+    "desc": [
+      "Also starting at 1st level, your healing spells are more effective. Whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the spell's level."
+    ],
+    "subclass": {
+      "url": "http://www.dnd5eapi.co/api/subclasses/3",
+      "name": "Life"
+    },
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/3", "name": "Cleric" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f00",
+    "index": 76,
+    "name": "Channel Divinity (1/rest)",
+    "level": 2,
+    "url": "http://www.dnd5eapi.co/api/features/76",
+    "desc": [
+      "At 2nd level, you gain the ability to channel divine energy directly from your deity, using that energy to fuel magical effects. You start with two such effects: Turn Undead and an effect determined by your domain. Some domains grant you additional effects as you advance in levels, as noted in the domain description.",
+      "When you use your Channel Divinity, you choose which effect to create. You must then finish a short or long rest to use your Channel Divinity again.",
+      "Some Channel Divinity effects require saving throws. When you use such an effect from this class, the DC equals your cleric spell save DC.",
+      "Beginning at 6th level, you can use your Channel Divinity twice between rests, and beginning at 18th level, you can use it three times between rests. When you finish a short or long rest, you regain your expended uses."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/3", "name": "Cleric" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f05",
+    "index": 77,
+    "name": "Channel Divinity: Turn Undead",
+    "level": 2,
+    "url": "http://www.dnd5eapi.co/api/features/77",
+    "desc": [
+      "As an action, you present your holy symbol and speak a prayer censuring the undead. Each undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.",
+      "A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/3", "name": "Cleric" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017efa",
+    "index": 78,
+    "name": "Channel Divinity: Preserve Life",
+    "level": 2,
+    "url": "http://www.dnd5eapi.co/api/features/78",
+    "desc": [
+      "Starting at 2nd level, you can use your Channel Divinity to heal the badly injured.",
+      "As an action, you present your holy symbol and evoke healing energy that can restore a number of hit points equal to five times your cleric level.",
+      "Choose any creatures within 30 feet of you, and divide those hit points among them. This feature can restore a creature to no more than half of its hit point maximum. You can't use this feature on an undead or a construct."
+    ],
+    "subclass": {
+      "url": "http://www.dnd5eapi.co/api/subclasses/3",
+      "name": "Life"
+    },
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/3", "name": "Cleric" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017efb",
+    "index": 79,
+    "name": "Domain Spells 2",
+    "level": 3,
+    "url": "http://www.dnd5eapi.co/api/features/79",
+    "desc": [
+      "Each domain has a list of spells, its domain spells, that you gain at the cleric levels noted in the domain description. Once you gain a domain spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day.",
+      "If you have a domain spell that doesn't appear on the cleric spell list, the spell is nonetheless a cleric spell for you."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/3", "name": "Cleric" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017efc",
+    "index": 80,
+    "name": "Ability Score Improvement 1",
+    "level": 4,
+    "url": "http://www.dnd5eapi.co/api/features/80",
+    "desc": [
+      "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/3", "name": "Cleric" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017efe",
+    "index": 81,
+    "name": "Domain Spells 3",
+    "level": 5,
+    "url": "http://www.dnd5eapi.co/api/features/81",
+    "desc": [
+      "Each domain has a list of spells, its domain spells, that you gain at the cleric levels noted in the domain description. Once you gain a domain spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day.",
+      "If you have a domain spell that doesn't appear on the cleric spell list, the spell is nonetheless a cleric spell for you."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/3", "name": "Cleric" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017efd",
+    "index": 82,
+    "name": "Destroy Undead (CR 1/2 or below)",
+    "level": 5,
+    "url": "http://www.dnd5eapi.co/api/features/82",
+    "desc": [
+      "Starting at 5th level, when an undead fails its saving throw against your Turn Undead feature, the creature is instantly destroyed if its challenge rating is at or below a certain threshold."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/3", "name": "Cleric" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017eff",
+    "index": 83,
+    "name": "Channel Divinity (2/rest)",
+    "level": 6,
+    "url": "http://www.dnd5eapi.co/api/features/83",
+    "desc": [
+      "Beginning at 6th level, you can use your Channel Divinity twice between rests, and beginning at 18th level, you can use it three times between rests. When you finish a short or long rest, you regain your expended uses."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/3", "name": "Cleric" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f02",
+    "index": 84,
+    "name": "Blessed Healer",
+    "level": 6,
+    "url": "http://www.dnd5eapi.co/api/features/84",
+    "desc": [
+      "Beginning at 6th level, the healing spells you cast on others heal you as well. When you cast a spell of 1st level or higher that restores hit points to a creature other than you, you regain hit points equal to 2 + the spell's level."
+    ],
+    "subclass": {
+      "url": "http://www.dnd5eapi.co/api/subclasses/3",
+      "name": "Life"
+    },
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/3", "name": "Cleric" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f01",
+    "index": 85,
+    "name": "Domain Spells 4",
+    "level": 7,
+    "url": "http://www.dnd5eapi.co/api/features/85",
+    "desc": [
+      "Each domain has a list of spells, its domain spells, that you gain at the cleric levels noted in the domain description. Once you gain a domain spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day.",
+      "If you have a domain spell that doesn't appear on the cleric spell list, the spell is nonetheless a cleric spell for you."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/3", "name": "Cleric" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f04",
+    "index": 86,
+    "name": "Ability Score Improvement 2",
+    "level": 8,
+    "url": "http://www.dnd5eapi.co/api/features/86",
+    "desc": [
+      "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/3", "name": "Cleric" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f03",
+    "index": 87,
+    "name": "Destroy Undead (CR 1 or below)",
+    "level": 8,
+    "url": "http://www.dnd5eapi.co/api/features/87",
+    "desc": [
+      "Starting at 5th level, when an undead fails its saving throw against your Turn Undead feature, the creature is instantly destroyed if its challenge rating is at or below a certain threshold."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/3", "name": "Cleric" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f07",
+    "index": 88,
+    "name": "Divine Strike",
+    "level": 8,
+    "url": "http://www.dnd5eapi.co/api/features/88",
+    "desc": [
+      "At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 radiant damage to the target. When you reach 14th level, the extra damage increases to 2d8."
+    ],
+    "subclass": {
+      "url": "http://www.dnd5eapi.co/api/subclasses/3",
+      "name": "Life"
+    },
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/3", "name": "Cleric" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f06",
+    "index": 89,
+    "name": "Domain Spells 5",
+    "level": 9,
+    "url": "http://www.dnd5eapi.co/api/features/89",
+    "desc": [
+      "Each domain has a list of spells, its domain spells, that you gain at the cleric levels noted in the domain description. Once you gain a domain spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day.",
+      "If you have a domain spell that doesn't appear on the cleric spell list, the spell is nonetheless a cleric spell for you."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/3", "name": "Cleric" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f08",
+    "index": 90,
+    "name": "Divine Intervention",
+    "level": 10,
+    "url": "http://www.dnd5eapi.co/api/features/90",
+    "desc": [
+      "Beginning at 10th level, you can call on your deity to intervene on your behalf when your need is great.",
+      "Imploring your deity's aid requires you to use your action. Describe the assistance you seek, and roll percentile dice. If you roll a number equal to or lower than your cleric level, your deity intervenes. The GM chooses the nature of the intervention; the effect of any cleric spell or cleric domain spell would be appropriate.",
+      "If your deity intervenes, you can't use this feature again for 7 days. Otherwise, you can use it again after you finish a long rest.",
+      "At 20th level, your call for intervention succeeds automatically, no roll required."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/3", "name": "Cleric" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f09",
+    "index": 91,
+    "name": "Destroy Undead (CR 2 or below)",
+    "level": 11,
+    "url": "http://www.dnd5eapi.co/api/features/91",
+    "desc": [
+      "Starting at 5th level, when an undead fails its saving throw against your Turn Undead feature, the creature is instantly destroyed if its challenge rating is at or below a certain threshold."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/3", "name": "Cleric" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f0a",
+    "index": 92,
+    "name": "Ability Score Improvement 3",
+    "level": 12,
+    "url": "http://www.dnd5eapi.co/api/features/92",
+    "desc": [
+      "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/3", "name": "Cleric" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f12",
+    "index": 93,
+    "name": "Destroy Undead (CR 3 or below)",
+    "level": 14,
+    "url": "http://www.dnd5eapi.co/api/features/93",
+    "desc": [
+      "Starting at 5th level, when an undead fails its saving throw against your Turn Undead feature, the creature is instantly destroyed if its challenge rating is at or below a certain threshold."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/3", "name": "Cleric" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f0e",
+    "index": 94,
+    "name": "Ability Score Improvement 4",
+    "level": 16,
+    "url": "http://www.dnd5eapi.co/api/features/94",
+    "desc": [
+      "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/3", "name": "Cleric" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f0b",
+    "index": 95,
+    "name": "Destroy Undead (CR 4 or below)",
+    "level": 17,
+    "url": "http://www.dnd5eapi.co/api/features/95",
+    "desc": [
+      "Starting at 5th level, when an undead fails its saving throw against your Turn Undead feature, the creature is instantly destroyed if its challenge rating is at or below a certain threshold."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/3", "name": "Cleric" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f0c",
+    "index": 96,
+    "name": "Supreme Healing",
+    "level": 17,
+    "url": "http://www.dnd5eapi.co/api/features/96",
+    "desc": [
+      "Starting at 17th level, when you would normally roll one or more dice to restore hit points with a spell, you instead use the highest number possible for each die. For example, instead of restoring 2d6 hit points to a creature, you restore 12."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/3", "name": "Cleric" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f0d",
+    "index": 97,
+    "name": "Channel Divinity (3/rest)",
+    "level": 18,
+    "url": "http://www.dnd5eapi.co/api/features/97",
+    "desc": [
+      "Beginning at 6th level, you can use your Channel Divinity twice between rests, and beginning at 18th level, you can use it three times between rests. When you finish a short or long rest, you regain your expended uses."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/3", "name": "Cleric" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f0f",
+    "index": 98,
+    "name": "Ability Score Improvement 5",
+    "level": 19,
+    "url": "http://www.dnd5eapi.co/api/features/98",
+    "desc": [
+      "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/3", "name": "Cleric" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f10",
+    "index": 99,
+    "name": "Divine Intervention Improvement",
+    "level": 20,
+    "url": "http://www.dnd5eapi.co/api/features/99",
+    "desc": [
+      "At 20th level, your call for intervention succeeds automatically, no roll required."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/3", "name": "Cleric" }
+  }
+],
+ "Fighter":[
+    {
+    "_id": "5bce912c5b7768e792017f2f",
+    "index": 131,
+    "name": "Choose: Fighting Style",
+    "level": 1,
+    "choice": {
+      "choose": 1,
+      "type": "feature",
+      "from": [
+        {
+          "name": "Fighting Style: Archery",
+          "url": "http://www.dnd5eapi.co/api/features/132"
+        },
+        {
+          "name": "Fighting Style: Defense",
+          "url": "http://www.dnd5eapi.co/api/features/133"
+        },
+        {
+          "name": "Fighting Style: Dueling",
+          "url": "http://www.dnd5eapi.co/api/features/134"
+        },
+        {
+          "name": "Fighting Style: Great Weapon Fighting",
+          "url": "http://www.dnd5eapi.co/api/features/135"
+        },
+        {
+          "name": "Fighting Style: Protection",
+          "url": "http://www.dnd5eapi.co/api/features/136"
+        },
+        {
+          "name": "Fighting Style: Two-Weapon Fighting",
+          "url": "http://www.dnd5eapi.co/api/features/137"
+        }
+      ]
+    },
+    "url": "http://www.dnd5eapi.co/api/features/131",
+    "desc": [
+      "You adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/5","name": "Fighter" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f31",
+    "index": 132,
+    "name": "Fighting Style: Archery",
+    "level": 1,
+    "group": "Fighting Style (Fighter)",
+    "url": "http://www.dnd5eapi.co/api/features/132",
+    "desc": [
+      "You gain a +2 bonus to attack rolls you make with ranged weapons."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/5","name": "Fighter" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f32",
+    "index": 133,
+    "name": "Fighting Style: Defense",
+    "level": 1,
+    "group": "Fighting Style (Fighter)",
+    "url": "http://www.dnd5eapi.co/api/features/133",
+    "desc": ["While you are wearing armor, you gain a +1 bonus to AC."],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/5","name": "Fighter" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f33",
+    "index": 134,
+    "name": "Fighting Style: Dueling",
+    "level": 1,
+    "group": "Fighting Style (Fighter)",
+    "url": "http://www.dnd5eapi.co/api/features/134",
+    "desc": [
+      "When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/5","name": "Fighter" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f34",
+    "index": 135,
+    "name": "Fighting Style: Great Weapon Fighting",
+    "level": 1,
+    "group": "Fighting Style (Fighter)",
+    "url": "http://www.dnd5eapi.co/api/features/135",
+    "desc": [
+      "When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/5","name": "Fighter" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f35",
+    "index": 136,
+    "name": "Fighting Style: Protection",
+    "level": 1,
+    "group": "Fighting Style (Fighter)",
+    "url": "http://www.dnd5eapi.co/api/features/136",
+    "desc": [
+      "When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/5","name": "Fighter" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f38",
+    "index": 137,
+    "name": "Fighting Style: Two-Weapon Fighting",
+    "level": 1,
+    "group": "Fighting Style (Fighter)",
+    "url": "http://www.dnd5eapi.co/api/features/137",
+    "desc": [
+      "When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/5","name": "Fighter" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f37",
+    "index": 138,
+    "name": "Second Wind",
+    "level": 1,
+    "url": "http://www.dnd5eapi.co/api/features/138",
+    "desc": [
+      "You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level. Once you use this feature, you must finish a short or long rest before you can use it again."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/5","name": "Fighter" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f3b",
+    "index": 139,
+    "name": "Action Surge (1 use)",
+    "level": 2,
+    "url": "http://www.dnd5eapi.co/api/features/139",
+    "desc": [
+      "Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action.",
+      "Once you use this feature, you must finish a short or long rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/5","name": "Fighter" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f48",
+    "index": 140,
+    "name": "Martial Archetype",
+    "level": 3,
+    "url": "http://www.dnd5eapi.co/api/features/140",
+    "desc": [
+      "At 3rd level, you choose an archetype that you strive to emulate in your combat styles and techniques. Choose Champion, Battle Master, or Eldritch Knight, all detailed at the end of the class description. The archetype you choose grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/5","name": "Fighter" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f39",
+    "index": 141,
+    "name": "Improved Critical",
+    "level": 3,
+    "url": "http://www.dnd5eapi.co/api/features/141",
+    "desc": [
+      "Beginning when you choose this archetype at 3rd level, your weapon attacks score a critical hit on a roll of 19 or 20."
+    ],
+    "subclass": {
+      "url": "http://www.dnd5eapi.co/api/subclasses/5",
+      "name": "Champion"
+    },
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/5","name": "Fighter" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f3a",
+    "index": 142,
+    "name": "Ability Score Improvement 1",
+    "level": 4,
+    "url": "http://www.dnd5eapi.co/api/features/142",
+    "desc": [
+      "When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/5","name": "Fighter" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f3c",
+    "index": 143,
+    "name": "Extra Attack (1)",
+    "level": 5,
+    "url": "http://www.dnd5eapi.co/api/features/143",
+    "desc": [
+      "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn. The number of attacks increases to three when you reach 11th level in this class and to four when you reach 20th level in this class."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/5","name": "Fighter" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f3d",
+    "index": 144,
+    "name": "Ability Score Improvement 2",
+    "level": 6,
+    "url": "http://www.dnd5eapi.co/api/features/144",
+    "desc": [
+      "When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/5","name": "Fighter" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f3f",
+    "index": 145,
+    "name": "Remarkable Athlete",
+    "level": 7,
+    "url": "http://www.dnd5eapi.co/api/features/145",
+    "desc": [
+      "Starting at 7th level, you can add half your proficiency bonus (round up) to any Strength, Dexterity, or Constitution check you make that doesn't already use your proficiency bonus. In addition, when you make a running long jump, the distance you can cover increases by a number of feet equal to your Strength modifier."
+    ],
+    "subclass": {
+      "url": "http://www.dnd5eapi.co/api/subclasses/5",
+      "name": "Champion"
+    },
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/5","name": "Fighter" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f3e",
+    "index": 146,
+    "name": "Ability Score Improvement 3",
+    "level": 8,
+    "url": "http://www.dnd5eapi.co/api/features/146",
+    "desc": [
+      "When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/5","name": "Fighter" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f40",
+    "index": 147,
+    "name": "Indomitable (1 use)",
+    "level": 9,
+    "url": "http://www.dnd5eapi.co/api/features/147",
+    "desc": [
+      "Beginning at 9th level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can't use this feature again until you finish a long rest. You can use this feature twice between long rests starting at 13th level and three times between long rests starting at 17th level."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/5","name": "Fighter" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f44",
+    "index": 148,
+    "name": "Choose: Additional Fighting Style",
+    "level": 10,
+    "choice": {
+      "choose": 1,
+      "type": "feature",
+      "from": [
+        {
+          "name": "Fighting Style: Archery",
+          "url": "http://www.dnd5eapi.co/api/features/132"
+        },
+        {
+          "name": "Fighting Style: Defense",
+          "url": "http://www.dnd5eapi.co/api/features/133"
+        },
+        {
+          "name": "Fighting Style: Dueling",
+          "url": "http://www.dnd5eapi.co/api/features/134"
+        },
+        {
+          "name": "Fighting Style: Great Weapon Fighting",
+          "url": "http://www.dnd5eapi.co/api/features/135"
+        },
+        {
+          "name": "Fighting Style: Protection",
+          "url": "http://www.dnd5eapi.co/api/features/136"
+        },
+        {
+          "name": "Fighting Style: Two-Weapon Fighting",
+          "url": "http://www.dnd5eapi.co/api/features/137"
+        }
+      ]
+    },
+    "url": "http://www.dnd5eapi.co/api/features/148",
+    "desc": [
+      "At 10th level, you can choose a second option from the Fighting Style class feature. Superior Critical Starting at 15th level, your weapon attacks score a critical hit on a roll of 18ΓÇô20."
+    ],
+    "subclass": {
+      "url": "http://www.dnd5eapi.co/api/subclasses/5",
+      "name": "Champion"
+    },
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/5","name": "Fighter" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f41",
+    "index": 149,
+    "name": "Extra Attack (2)",
+    "level": 11,
+    "url": "http://www.dnd5eapi.co/api/features/149",
+    "desc": [
+      "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn. The number of attacks increases to three when you reach 11th level in this class and to four when you reach 20th level in this class."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/5","name": "Fighter" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f42",
+    "index": 150,
+    "name": "Ability Score Improvement 4",
+    "level": 12,
+    "url": "http://www.dnd5eapi.co/api/features/150",
+    "desc": [
+      "When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/5","name": "Fighter" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f43",
+    "index": 151,
+    "name": "Indomitable (2 uses)",
+    "level": 13,
+    "url": "http://www.dnd5eapi.co/api/features/151",
+    "desc": [
+      "Beginning at 9th level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can't use this feature again until you finish a long rest. You can use this feature twice between long rests starting at 13th level and three times between long rests starting at 17th level."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/5","name": "Fighter" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f45",
+    "index": 152,
+    "name": "Ability Score Improvement 5",
+    "level": 14,
+    "url": "http://www.dnd5eapi.co/api/features/152",
+    "desc": [
+      "When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/5","name": "Fighter" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f46",
+    "index": 153,
+    "name": "Superior Critical",
+    "level": 15,
+    "url": "http://www.dnd5eapi.co/api/features/153",
+    "desc": [
+      "Starting at 15th level, your weapon attacks score a critical hit on a roll of 18ΓÇô20."
+    ],
+    "subclass": {
+      "url": "http://www.dnd5eapi.co/api/subclasses/5",
+      "name": "Champion"
+    },
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/5","name": "Fighter" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f47",
+    "index": 154,
+    "name": "Ability Score Improvement 6",
+    "level": 16,
+    "url": "http://www.dnd5eapi.co/api/features/154",
+    "desc": [
+      "When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/5","name": "Fighter" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f49",
+    "index": 155,
+    "name": "Action Surge (2 uses)",
+    "level": 2,
+    "url": "http://www.dnd5eapi.co/api/features/155",
+    "desc": [
+      "Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action.",
+      "Once you use this feature, you must finish a short or long rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/5","name": "Fighter" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f4a",
+    "index": 156,
+    "name": "Indomitable (3 uses)",
+    "level": 17,
+    "url": "http://www.dnd5eapi.co/api/features/156",
+    "desc": [
+      "Beginning at 9th level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can't use this feature again until you finish a long rest. You can use this feature twice between long rests starting at 13th level and three times between long rests starting at 17th level."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/5","name": "Fighter" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f4c",
+    "index": 157,
+    "name": "Survivor",
+    "level": 18,
+    "url": "http://www.dnd5eapi.co/api/features/157",
+    "desc": [
+      "At 18th level, you attain the pinnacle of resilience in battle. At the start of each of your turns, you regain hit points equal to 5 + your Constitution modifier if you have no more than half of your hit points left. You don't gain this benefit if you have 0 hit points."
+    ],
+    "subclass": {
+      "url": "http://www.dnd5eapi.co/api/subclasses/5",
+      "name": "Champion"
+    },
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/5","name": "Fighter" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f4b",
+    "index": 158,
+    "name": "Ability Score Improvement 7",
+    "level": 19,
+    "url": "http://www.dnd5eapi.co/api/features/158",
+    "desc": [
+      "When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/5","name": "Fighter" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f4d",
+    "index": 159,
+    "name": "Extra Attack (3)",
+    "level": 20,
+    "url": "http://www.dnd5eapi.co/api/features/159",
+    "desc": [
+      "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn. The number of attacks increases to three when you reach 11th level in this class and to four when you reach 20th level in this class."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/5","name": "Fighter" }
+  }
+],
+ "Ranger": [
+   {
+    "_id": "5bce912c5b7768e792017f8a",
+    "index": 220,
+    "name": "Favored Enemy (1 type)",
+    "level": 1,
+    "url": "http://www.dnd5eapi.co/api/features/220",
+    "desc": [
+      "Beginning at 1st level, you have significant experience studying, tracking, hunting, and even talking to a certain type of enemy.",
+      "Choose a type of favored enemy: aberrations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. Alternatively, you can select two races of humanoid (such as gnolls and orcs) as favored enemies.",
+      "You have advantage on Wisdom (Survival) checks to track your favored enemies, as well as on Intelligence checks to recall information about them.",
+      "When you gain this feature, you also learn one language of your choice that is spoken by your favored enemies, if they speak one at all.",
+      "You choose one additional favored enemy, as well as an associated language, at 6th and 14th level. As you gain levels, your choices should reflect the types of monsters you have encountered on your adventures."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/8", "name": "Ranger" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f8c",
+    "index": 221,
+    "name": "Natural Explorer (1 terrain type)",
+    "level": 1,
+    "url": "http://www.dnd5eapi.co/api/features/221",
+    "desc": [
+      "You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. Choose one type of favored terrain: arctic, coast, desert, forest, grassland, mountain, or swamp. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you're proficient in.",
+      "While traveling for an hour or more in your favored terrain, you gain the following benefits:",
+      "• Difficult terrain doesn't slow your group's travel.",
+      "• Your group can't become lost except by magical means.",
+      "• Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.",
+      "• If you are traveling alone, you can move stealthily at a normal pace.",
+      "• When you forage, you find twice as much food as you normally would.",
+      "• While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.",
+      "You choose additional favored terrain types at 6th and 10th level."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/8", "name": "Ranger" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f98",
+    "index": 222,
+    "name": "Choose: Fighting Style",
+    "level": 2,
+    "choice": {
+      "choose": 1,
+      "type": "feature",
+      "from": [
+        {
+          "name": "Fighting Style: Archery",
+          "url": "http://www.dnd5eapi.co/api/features/223"
+        },
+        {
+          "name": "Fighting Style: Defense",
+          "url": "http://www.dnd5eapi.co/api/features/224"
+        },
+        {
+          "name": "Fighting Style: Dueling",
+          "url": "http://www.dnd5eapi.co/api/features/225"
+        },
+        {
+          "name": "Fighting Style: Two-Weapon Fighting",
+          "url": "http://www.dnd5eapi.co/api/features/226"
+        }
+      ]
+    },
+    "url": "http://www.dnd5eapi.co/api/features/222",
+    "desc": [
+      "At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/8", "name": "Ranger" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f91",
+    "index": 223,
+    "name": "Fighting Style: Archery",
+    "level": 2,
+    "group": "Fighting Style (Ranger)",
+    "url": "http://www.dnd5eapi.co/api/features/223",
+    "desc": [
+      "You gain a +2 bonus to attack rolls you make with ranged weapons."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/8", "name": "Ranger" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f8b",
+    "index": 224,
+    "name": "Fighting Style: Defense",
+    "level": 2,
+    "group": "Fighting Style (Ranger)",
+    "url": "http://www.dnd5eapi.co/api/features/224",
+    "desc": ["While you are wearing armor, you gain a +1 bonus to AC."],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/8", "name": "Ranger" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f8d",
+    "index": 225,
+    "name": "Fighting Style: Dueling",
+    "level": 2,
+    "group": "Fighting Style (Ranger)",
+    "url": "http://www.dnd5eapi.co/api/features/225",
+    "desc": [
+      "When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/8", "name": "Ranger" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f8e",
+    "index": 226,
+    "name": "Fighting Style: Two-Weapon Fighting",
+    "level": 2,
+    "group": "Fighting Style (Ranger)",
+    "url": "http://www.dnd5eapi.co/api/features/226",
+    "desc": [
+      "When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/8", "name": "Ranger" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f8f",
+    "index": 227,
+    "name": "Spellcasting",
+    "level": 2,
+    "reference": "http://www.dnd5eapi.co/api/spellcasting/ranger",
+    "url": "http://www.dnd5eapi.co/api/features/227",
+    "desc": [
+      "By the time you reach 2nd level, you have learned to use the magical essence of nature to cast spells, much as a druid does."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/8", "name": "Ranger" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f90",
+    "index": 228,
+    "name": "Ranger Archetype",
+    "level": 3,
+    "url": "http://www.dnd5eapi.co/api/features/228",
+    "desc": [
+      "At 3rd level, you choose an archetype that you strive to emulate: Hunter or Beast Master, both detailed at the end of the class description. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/8", "name": "Ranger" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f95",
+    "index": 229,
+    "name": "Choose: Hunter's Prey",
+    "level": 3,
+    "choice": {
+      "choose": 1,
+      "type": "feature",
+      "from": [
+        {
+          "name": "Hunter's Prey: Colossus Slayer",
+          "url": "http://www.dnd5eapi.co/api/features/230"
+        },
+        {
+          "name": "Hunter's Prey: Giant Killer",
+          "url": "http://www.dnd5eapi.co/api/features/231"
+        },
+        {
+          "name": "Hunter's Prey: Horde Breaker",
+          "url": "http://www.dnd5eapi.co/api/features/232"
+        }
+      ]
+    },
+    "url": "http://www.dnd5eapi.co/api/features/229",
+    "desc": [
+      "At 3rd level, you gain one of the following features of your choice.",
+      "Colossus Slayer",
+      "Giant Killer",
+      "Horde Breaker"
+    ],
+    "subclass": {
+      "url": "http://www.dnd5eapi.co/api/subclasses/8",
+      "name": "Hunter"
+    },
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/8", "name": "Ranger" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f92",
+    "index": 230,
+    "name": "Hunter's Prey: Colossus Slayer",
+    "level": 3,
+    "group": "Hunter's Prey",
+    "url": "http://www.dnd5eapi.co/api/features/230",
+    "desc": [
+      "Your tenacity can wear down the most potent foes. When you hit a creature with a weapon attack, the creature takes an extra 1d8 damage if it's below its hit point maximum. You can deal this extra damage only once per turn."
+    ],
+    "subclass": {
+      "url": "http://www.dnd5eapi.co/api/subclasses/8",
+      "name": "Hunter"
+    },
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/8", "name": "Ranger" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f93",
+    "index": 231,
+    "name": "Hunter's Prey: Giant Killer",
+    "level": 3,
+    "group": "Hunter's Prey",
+    "url": "http://www.dnd5eapi.co/api/features/231",
+    "desc": [
+      "When a Large or larger creature within 5 feet of you hits or misses you with an attack, you can use your reaction to attack that creature immediately after its attack, provided that you can see the creature."
+    ],
+    "subclass": {
+      "url": "http://www.dnd5eapi.co/api/subclasses/8",
+      "name": "Hunter"
+    },
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/8", "name": "Ranger" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f94",
+    "index": 232,
+    "name": "Hunter's Prey: Horde Breaker",
+    "level": 3,
+    "group": "Hunter's Prey",
+    "url": "http://www.dnd5eapi.co/api/features/232",
+    "desc": [
+      "Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target and within range of your weapon."
+    ],
+    "subclass": {
+      "url": "http://www.dnd5eapi.co/api/subclasses/8",
+      "name": "Hunter"
+    },
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/8", "name": "Ranger" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f97",
+    "index": 233,
+    "name": "Primeval Awareness",
+    "level": 3,
+    "url": "http://www.dnd5eapi.co/api/features/233",
+    "desc": [
+      "Beginning at 3rd level, you can use your action and expend one ranger spell slot to focus your awareness on the region around you. For 1 minute per level of the spell slot you expend, you can sense whether the following types of creatures are present within 1 mile of you (or within up to 6 miles if you are in your favored terrain): aberrations, celestials, dragons, elementals, fey, fiends, and undead. This feature doesn't reveal the creatures' location or number."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/8", "name": "Ranger" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f96",
+    "index": 234,
+    "name": "Ability Score Improvement 1",
+    "level": 4,
+    "url": "http://www.dnd5eapi.co/api/features/234",
+    "desc": [
+      "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/8", "name": "Ranger" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f99",
+    "index": 235,
+    "name": "Extra Attack",
+    "level": 5,
+    "url": "http://www.dnd5eapi.co/api/features/235",
+    "desc": [
+      "Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/8", "name": "Ranger" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f9a",
+    "index": 236,
+    "name": "Favored Enemy (2 types)",
+    "level": 6,
+    "url": "http://www.dnd5eapi.co/api/features/236",
+    "desc": [
+      "Beginning at 1st level, you have significant experience studying, tracking, hunting, and even talking to a certain type of enemy.",
+      "Choose a type of favored enemy: aberrations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. Alternatively, you can select two races of humanoid (such as gnolls and orcs) as favored enemies.",
+      "You have advantage on Wisdom (Survival) checks to track your favored enemies, as well as on Intelligence checks to recall information about them.",
+      "When you gain this feature, you also learn one language of your choice that is spoken by your favored enemies, if they speak one at all.",
+      "You choose one additional favored enemy, as well as an associated language, at 6th and 14th level. As you gain levels, your choices should reflect the types of monsters you have encountered on your adventures."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/8", "name": "Ranger" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f9d",
+    "index": 237,
+    "name": "Natural Explorer (2 terrain types)",
+    "level": 6,
+    "url": "http://www.dnd5eapi.co/api/features/237",
+    "desc": [
+      "You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. Choose one type of favored terrain: arctic, coast, desert, forest, grassland, mountain, or swamp. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you're proficient in.",
+      "While traveling for an hour or more in your favored terrain, you gain the following benefits:",
+      "• Difficult terrain doesn't slow your group's travel.",
+      "• Your group can't become lost except by magical means.",
+      "• Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.",
+      "• If you are traveling alone, you can move stealthily at a normal pace.",
+      "• When you forage, you find twice as much food as you normally would.",
+      "• While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.",
+      "You choose additional favored terrain types at 6th and 10th level."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/8", "name": "Ranger" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f9c",
+    "index": 238,
+    "name": "Choose: Defensive Tactics",
+    "level": 7,
+    "choice": {
+      "choose": 1,
+      "type": "feature",
+      "from": [
+        {
+          "name": "Defensive Tactics: Escape the Horde",
+          "url": "http://www.dnd5eapi.co/api/features/239"
+        },
+        {
+          "name": "Defensive Tactics: Multi-attack Defense",
+          "url": "http://www.dnd5eapi.co/api/features/240"
+        },
+        {
+          "name": "Defensive Tactics: Steel Will",
+          "url": "http://www.dnd5eapi.co/api/features/241"
+        }
+      ]
+    },
+    "url": "http://www.dnd5eapi.co/api/features/238",
+    "desc": [
+      "At 7th level, you gain one of the following features of your choice.",
+      "Escape the Horde",
+      "Multi-attack Defense",
+      "Steel Will"
+    ],
+    "subclass": {
+      "url": "http://www.dnd5eapi.co/api/subclasses/8",
+      "name": "Hunter"
+    },
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/8", "name": "Ranger" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f9b",
+    "index": 239,
+    "name": "Defensive Tactics: Escape the Horde",
+    "level": 7,
+    "group": "Defensive Tactics",
+    "url": "http://www.dnd5eapi.co/api/features/239",
+    "desc": ["Opportunity attacks against you are made with disadvantage."],
+    "subclass": {
+      "url": "http://www.dnd5eapi.co/api/subclasses/8",
+      "name": "Hunter"
+    },
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/8", "name": "Ranger" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017fa7",
+    "index": 240,
+    "name": "Defensive Tactics: Multi-attack Defense",
+    "level": 7,
+    "group": "Defensive Tactics",
+    "url": "http://www.dnd5eapi.co/api/features/240",
+    "desc": [
+      "When a creature hits you with an attack, you gain a +4 bonus to AC against all subsequent attacks made by that creature for the rest of the turn."
+    ],
+    "subclass": {
+      "url": "http://www.dnd5eapi.co/api/subclasses/8",
+      "name": "Hunter"
+    },
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/8", "name": "Ranger" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f9e",
+    "index": 241,
+    "name": "Defensive Tactics: Steel Will",
+    "level": 7,
+    "group": "Defensive Tactics",
+    "url": "http://www.dnd5eapi.co/api/features/241",
+    "desc": ["You have advantage on saving throws against being frightened."],
+    "subclass": {
+      "url": "http://www.dnd5eapi.co/api/subclasses/8",
+      "name": "Hunter"
+    },
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/8", "name": "Ranger" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017f9f",
+    "index": 242,
+    "name": "Ability Score Improvement 2",
+    "level": 8,
+    "url": "http://www.dnd5eapi.co/api/features/242",
+    "desc": [
+      "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/8", "name": "Ranger" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017fa0",
+    "index": 243,
+    "name": "Land's Stride",
+    "level": 8,
+    "url": "http://www.dnd5eapi.co/api/features/243",
+    "desc": [
+      "Starting at 8th level, moving through non-magical difficult terrain costs you no extra movement. You can also pass through non-magical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.",
+      "In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the entangle spell."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/8", "name": "Ranger" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017fa2",
+    "index": 244,
+    "name": "Natural Explorer (3 terrain types)",
+    "level": 10,
+    "url": "http://www.dnd5eapi.co/api/features/244",
+    "desc": [
+      "You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. Choose one type of favored terrain: arctic, coast, desert, forest, grassland, mountain, or swamp. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you're proficient in.",
+      "While traveling for an hour or more in your favored terrain, you gain the following benefits:",
+      "• Difficult terrain doesn't slow your group's travel.",
+      "• Your group can't become lost except by magical means.",
+      "• Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.",
+      "• If you are traveling alone, you can move stealthily at a normal pace.",
+      "• When you forage, you find twice as much food as you normally would.",
+      "• While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.",
+      "You choose additional favored terrain types at 6th and 10th level."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/8", "name": "Ranger" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017fa1",
+    "index": 245,
+    "name": "Hide in Plain Sight",
+    "level": 10,
+    "url": "http://www.dnd5eapi.co/api/features/245",
+    "desc": [
+      "Starting at 10th level, you can spend 1 minute creating camouflage for yourself. You must have access to fresh mud, dirt, plants, soot, and other naturally occurring materials with which to create your camouflage.",
+      "Once you are camouflaged in this way, you can try to hide by pressing yourself up against a solid surface, such as a tree or wall, that is at least as tall and wide as you are. You gain a +10 bonus to Dexterity (Stealth) checks as long as you remain there without moving or taking actions. Once you move or take an action or a reaction, you must camouflage yourself again to gain this benefit."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/8", "name": "Ranger" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017fa3",
+    "index": 246,
+    "name": "Choose: Multi-attack",
+    "level": 11,
+    "choice": {
+      "choose": 1,
+      "type": "feature",
+      "from": [
+        {
+          "name": "Multi-attack: Volley",
+          "url": "http://www.dnd5eapi.co/api/features/247"
+        },
+        {
+          "name": "Multi-attack: Whirlwind Attack",
+          "url": "http://www.dnd5eapi.co/api/features/248"
+        }
+      ]
+    },
+    "url": "http://www.dnd5eapi.co/api/features/246",
+    "desc": [
+      "At 11th level, you gain one of the following features of your choice.",
+      "Volley",
+      "Whirlwind Attack"
+    ],
+    "subclass": {
+      "url": "http://www.dnd5eapi.co/api/subclasses/8",
+      "name": "Hunter"
+    },
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/8", "name": "Ranger" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017fa4",
+    "index": 247,
+    "name": "Multi-attack: Volley",
+    "level": 11,
+    "group": "Multi-attack",
+    "url": "http://www.dnd5eapi.co/api/features/247",
+    "desc": [
+      "You can use your action to make a ranged attack against any number of creatures within 10 feet of a point you can see within your weapon's range. You must have ammunition for each target, as normal, and you make a separate attack roll for each target."
+    ],
+    "subclass": {
+      "url": "http://www.dnd5eapi.co/api/subclasses/8",
+      "name": "Hunter"
+    },
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/8", "name": "Ranger" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017fa5",
+    "index": 248,
+    "name": "Multi-attack: Whirlwind Attack",
+    "level": 11,
+    "group": "Multi-attack",
+    "url": "http://www.dnd5eapi.co/api/features/248",
+    "desc": [
+      "You can use your action to make a melee attack against any number of creatures within 5 feet of you, with a separate attack roll for each target."
+    ],
+    "subclass": {
+      "url": "http://www.dnd5eapi.co/api/subclasses/8",
+      "name": "Hunter"
+    },
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/8", "name": "Ranger" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017fa6",
+    "index": 249,
+    "name": "Ability Score Improvement 4",
+    "level": 12,
+    "url": "http://www.dnd5eapi.co/api/features/249",
+    "desc": [
+      "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/8", "name": "Ranger" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017fa9",
+    "index": 250,
+    "name": "Favored Enemy (3 enemies)",
+    "level": 14,
+    "url": "http://www.dnd5eapi.co/api/features/250",
+    "desc": [
+      "Beginning at 1st level, you have significant experience studying, tracking, hunting, and even talking to a certain type of enemy.",
+      "Choose a type of favored enemy: aberrations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. Alternatively, you can select two races of humanoid (such as gnolls and orcs) as favored enemies.",
+      "You have advantage on Wisdom (Survival) checks to track your favored enemies, as well as on Intelligence checks to recall information about them.",
+      "When you gain this feature, you also learn one language of your choice that is spoken by your favored enemies, if they speak one at all.",
+      "You choose one additional favored enemy, as well as an associated language, at 6th and 14th level. As you gain levels, your choices should reflect the types of monsters you have encountered on your adventures."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/8", "name": "Ranger" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017fa8",
+    "index": 251,
+    "name": "Vanish",
+    "level": 14,
+    "url": "http://www.dnd5eapi.co/api/features/251",
+    "desc": [
+      "Starting at 14th level, you can use the Hide action as a bonus action on your turn. Also, you can't be tracked by non-magical means, unless you choose to leave a trail."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/8", "name": "Ranger" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017fab",
+    "index": 252,
+    "name": "Choose: Superior Hunter's Defense",
+    "level": 15,
+    "choice": {
+      "choose": 1,
+      "type": "feature",
+      "from": [
+        {
+          "name": "Superior Hunter's Defense: Evasion",
+          "url": "http://www.dnd5eapi.co/api/features/253"
+        },
+        {
+          "name": "Superior Hunter's Defense: Stand Against the Tide",
+          "url": "http://www.dnd5eapi.co/api/features/254"
+        },
+        {
+          "name": "Superior Hunter's Defense: Uncanny Dodge",
+          "url": "http://www.dnd5eapi.co/api/features/255"
+        }
+      ]
+    },
+    "url": "http://www.dnd5eapi.co/api/features/252",
+    "desc": [
+      "At 15th level, you gain one of the following features of your choice.",
+      "Evasion",
+      "Stand Against the Tide",
+      "Uncanny Dodge"
+    ],
+    "subclass": {
+      "url": "http://www.dnd5eapi.co/api/subclasses/8",
+      "name": "Hunter"
+    },
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/8", "name": "Ranger" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017faa",
+    "index": 253,
+    "name": "Superior Hunter's Defense: Evasion",
+    "level": 15,
+    "group": "Superior Hunter's Defense",
+    "url": "http://www.dnd5eapi.co/api/features/253",
+    "desc": [
+      "When you are subjected to an effect, such as a red dragon's fiery breath or a lightning bolt spell, that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+    ],
+    "subclass": {
+      "url": "http://www.dnd5eapi.co/api/subclasses/8",
+      "name": "Hunter"
+    },
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/8", "name": "Ranger" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017fad",
+    "index": 254,
+    "name": "Superior Hunter's Defense: Stand Against the Tide",
+    "level": 15,
+    "group": "Superior Hunter's Defense",
+    "url": "http://www.dnd5eapi.co/api/features/254",
+    "desc": [
+      "When a hostile creature misses you with a melee attack, you can use your reaction to force that creature to repeat the same attack against another creature (other than itself) of your choice."
+    ],
+    "subclass": {
+      "url": "http://www.dnd5eapi.co/api/subclasses/8",
+      "name": "Hunter"
+    },
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/8", "name": "Ranger" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017fac",
+    "index": 255,
+    "name": "Superior Hunter's Defense: Uncanny Dodge",
+    "level": 15,
+    "group": "Superior Hunter's Defense",
+    "url": "http://www.dnd5eapi.co/api/features/255",
+    "desc": [
+      "When an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you."
+    ],
+    "subclass": {
+      "url": "http://www.dnd5eapi.co/api/subclasses/8",
+      "name": "Hunter"
+    },
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/8", "name": "Ranger" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fb0",
+    "index": 256,
+    "name": "Ability Score Improvement 4",
+    "level": 16,
+    "url": "http://www.dnd5eapi.co/api/features/256",
+    "desc": [
+      "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/8", "name": "Ranger" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fb1",
+    "index": 257,
+    "name": "Feral Senses",
+    "level": 18,
+    "url": "http://www.dnd5eapi.co/api/features/257",
+    "desc": [
+      "At 18th level, you gain preternatural senses that help you fight creatures you can't see. When you attack a creature you can't see, your inability to see it doesn't impose disadvantage on your attack rolls against it.",
+      "You are also aware of the location of any invisible creature within 30 feet of you, provided that the creature isn't hidden from you and you aren't blinded or deafened."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/8", "name": "Ranger" }
+  },
+  {
+    "_id": "5bce912c5b7768e792017fae",
+    "index": 258,
+    "name": "Ability Score Improvement 5",
+    "level": 19,
+    "url": "http://www.dnd5eapi.co/api/features/258",
+    "desc": [
+      "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/8", "name": "Ranger" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017faf",
+    "index": 259,
+    "name": "Foe Slayer",
+    "level": 20,
+    "url": "http://www.dnd5eapi.co/api/features/259",
+    "desc": [
+      "At 20th level, you become an unparalleled hunter of your enemies. Once on each of your turns, you can add your Wisdom modifier to the attack roll or the damage roll of an attack you make against one of your favored enemies. You can choose to use this feature before or after the roll, but before any effects of the roll are applied."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/8", "name": "Ranger" }
+  }
+],
+ "Rogue": [
+    {
+    "_id": "5bce912d5b7768e792017fb9",
+    "index": 260,
+    "name": "Choose: Expertise 1",
+    "level": 1,
+    "choice": {
+      "choose": 2,
+      "type": "feature",
+      "from": [
+        {
+          "name": "Expertise: Acrobatics",
+          "url": "http://www.dnd5eapi.co/api/features/278"
+        },
+        {
+          "name": "Expertise: Animal Handling",
+          "url": "http://www.dnd5eapi.co/api/features/277"
+        },
+        {
+          "name": "Expertise: Arcana",
+          "url": "http://www.dnd5eapi.co/api/features/261"
+        },
+        {
+          "name": "Expertise: Athletics",
+          "url": "http://www.dnd5eapi.co/api/features/262"
+        },
+        {
+          "name": "Expertise: Deception",
+          "url": "http://www.dnd5eapi.co/api/features/263"
+        },
+        {
+          "name": "Expertise: History",
+          "url": "http://www.dnd5eapi.co/api/features/264"
+        },
+        {
+          "name": "Expertise: Insight",
+          "url": "http://www.dnd5eapi.co/api/features/265"
+        },
+        {
+          "name": "Expertise: Intimidation",
+          "url": "http://www.dnd5eapi.co/api/features/266"
+        },
+        {
+          "name": "Expertise: Investigation",
+          "url": "http://www.dnd5eapi.co/api/features/267"
+        },
+        {
+          "name": "Expertise: Medicine",
+          "url": "http://www.dnd5eapi.co/api/features/268"
+        },
+        {
+          "name": "Expertise: Nature",
+          "url": "http://www.dnd5eapi.co/api/features/269"
+        },
+        {
+          "name": "Expertise: Perception",
+          "url": "http://www.dnd5eapi.co/api/features/270"
+        },
+        {
+          "name": "Expertise: Performance",
+          "url": "http://www.dnd5eapi.co/api/features/271"
+        },
+        {
+          "name": "Expertise: Persuasion",
+          "url": "http://www.dnd5eapi.co/api/features/272"
+        },
+        {
+          "name": "Expertise: Religion",
+          "url": "http://www.dnd5eapi.co/api/features/273"
+        },
+        {
+          "name": "Expertise: Sleight of Hand",
+          "url": "http://www.dnd5eapi.co/api/features/274"
+        },
+        {
+          "name": "Expertise: Stealth",
+          "url": "http://www.dnd5eapi.co/api/features/275"
+        },
+        {
+          "name": "Expertise: Survival",
+          "url": "http://www.dnd5eapi.co/api/features/276"
+        }
+      ]
+    },
+    "url": "http://www.dnd5eapi.co/api/features/260",
+    "desc": [
+      "At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves' tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.",
+      "At 6th level, you can choose two more of your proficiencies (in skills or with thieves' tools) to gain this benefit"
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fba",
+    "index": 261,
+    "name": "Expertise: Acrobatics",
+    "prerequisites": [
+      {
+        "proficiency": "http://www.dnd5eapi.co/api/proficiencies/105",
+        "type": "proficiency"
+      }
+    ],
+    "group": "Expertise (Rogue)",
+    "url": "http://www.dnd5eapi.co/api/features/261",
+    "desc": [
+      "Your proficiency bonus is doubled for any ability check you make for this skill."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fb3",
+    "index": 262,
+    "name": "Expertise: Animal Handling",
+    "prerequisites": [
+      {
+        "proficiency": "http://www.dnd5eapi.co/api/proficiencies/106",
+        "type": "proficiency"
+      }
+    ],
+    "group": "Expertise (Rogue)",
+    "url": "http://www.dnd5eapi.co/api/features/262",
+    "desc": [
+      "Your proficiency bonus is doubled for any ability check you make for this skill."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fb2",
+    "index": 263,
+    "name": "Expertise: Arcana",
+    "prerequisites": [
+      {
+        "proficiency": "http://www.dnd5eapi.co/api/proficiencies/107",
+        "type": "proficiency"
+      }
+    ],
+    "group": "Expertise (Rogue)",
+    "url": "http://www.dnd5eapi.co/api/features/263",
+    "desc": [
+      "Your proficiency bonus is doubled for any ability check you make for this skill."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fb4",
+    "index": 264,
+    "name": "Expertise: Athletics",
+    "prerequisites": [
+      {
+        "proficiency": "http://www.dnd5eapi.co/api/proficiencies/108",
+        "type": "proficiency"
+      }
+    ],
+    "group": "Expertise (Rogue)",
+    "url": "http://www.dnd5eapi.co/api/features/264",
+    "desc": [
+      "Your proficiency bonus is doubled for any ability check you make for this skill."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fb5",
+    "index": 265,
+    "name": "Expertise: Deception",
+    "prerequisites": [
+      {
+        "proficiency": "http://www.dnd5eapi.co/api/proficiencies/109",
+        "type": "proficiency"
+      }
+    ],
+    "group": "Expertise (Rogue)",
+    "url": "http://www.dnd5eapi.co/api/features/265",
+    "desc": [
+      "Your proficiency bonus is doubled for any ability check you make for this skill."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fb6",
+    "index": 266,
+    "name": "Expertise: History",
+    "prerequisites": [
+      {
+        "proficiency": "http://www.dnd5eapi.co/api/proficiencies/110",
+        "type": "proficiency"
+      }
+    ],
+    "group": "Expertise (Rogue)",
+    "url": "http://www.dnd5eapi.co/api/features/266",
+    "desc": [
+      "Your proficiency bonus is doubled for any ability check you make for this skill."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fb8",
+    "index": 267,
+    "name": "Expertise: Insight",
+    "prerequisites": [
+      {
+        "proficiency": "http://www.dnd5eapi.co/api/proficiencies/111",
+        "type": "proficiency"
+      }
+    ],
+    "group": "Expertise (Rogue)",
+    "url": "http://www.dnd5eapi.co/api/features/267",
+    "desc": [
+      "Your proficiency bonus is doubled for any ability check you make for this skill."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fb7",
+    "index": 268,
+    "name": "Expertise: Intimidation",
+    "prerequisites": [
+      {
+        "proficiency": "http://www.dnd5eapi.co/api/proficiencies/112",
+        "type": "proficiency"
+      }
+    ],
+    "group": "Expertise (Rogue)",
+    "url": "http://www.dnd5eapi.co/api/features/268",
+    "desc": [
+      "Your proficiency bonus is doubled for any ability check you make for this skill."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fbc",
+    "index": 269,
+    "name": "Expertise: Investigation",
+    "prerequisites": [
+      {
+        "proficiency": "http://www.dnd5eapi.co/api/proficiencies/113",
+        "type": "proficiency"
+      }
+    ],
+    "group": "Expertise (Rogue)",
+    "url": "http://www.dnd5eapi.co/api/features/269",
+    "desc": [
+      "Your proficiency bonus is doubled for any ability check you make for this skill."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fbb",
+    "index": 270,
+    "name": "Expertise: Medicine",
+    "prerequisites": [
+      {
+        "proficiency": "http://www.dnd5eapi.co/api/proficiencies/114",
+        "type": "proficiency"
+      }
+    ],
+    "group": "Expertise (Rogue)",
+    "url": "http://www.dnd5eapi.co/api/features/270",
+    "desc": [
+      "Your proficiency bonus is doubled for any ability check you make for this skill."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fbe",
+    "index": 271,
+    "name": "Expertise: Nature",
+    "prerequisites": [
+      {
+        "proficiency": "http://www.dnd5eapi.co/api/proficiencies/115",
+        "type": "proficiency"
+      }
+    ],
+    "group": "Expertise (Rogue)",
+    "url": "http://www.dnd5eapi.co/api/features/271",
+    "desc": [
+      "Your proficiency bonus is doubled for any ability check you make for this skill."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fcb",
+    "index": 272,
+    "name": "Expertise: Perception",
+    "prerequisites": [
+      {
+        "proficiency": "http://www.dnd5eapi.co/api/proficiencies/116",
+        "type": "proficiency"
+      }
+    ],
+    "group": "Expertise (Rogue)",
+    "url": "http://www.dnd5eapi.co/api/features/272",
+    "desc": [
+      "Your proficiency bonus is doubled for any ability check you make for this skill."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fbd",
+    "index": 273,
+    "name": "Expertise: Performance",
+    "prerequisites": [
+      {
+        "proficiency": "http://www.dnd5eapi.co/api/proficiencies/117",
+        "type": "proficiency"
+      }
+    ],
+    "group": "Expertise (Rogue)",
+    "url": "http://www.dnd5eapi.co/api/features/273",
+    "desc": [
+      "Your proficiency bonus is doubled for any ability check you make for this skill."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fc5",
+    "index": 274,
+    "name": "Expertise: Persuasion",
+    "prerequisites": [
+      {
+        "proficiency": "http://www.dnd5eapi.co/api/proficiencies/118",
+        "type": "proficiency"
+      }
+    ],
+    "group": "Expertise (Rogue)",
+    "url": "http://www.dnd5eapi.co/api/features/274",
+    "desc": [
+      "Your proficiency bonus is doubled for any ability check you make for this skill."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fbf",
+    "index": 275,
+    "name": "Expertise: Religion",
+    "prerequisites": [
+      {
+        "proficiency": "http://www.dnd5eapi.co/api/proficiencies/119",
+        "type": "proficiency"
+      }
+    ],
+    "group": "Expertise (Rogue)",
+    "url": "http://www.dnd5eapi.co/api/features/275",
+    "desc": [
+      "Your proficiency bonus is doubled for any ability check you make for this skill."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fc0",
+    "index": 276,
+    "name": "Expertise: Sleight of Hand",
+    "prerequisites": [
+      {
+        "proficiency": "http://www.dnd5eapi.co/api/proficiencies/120",
+        "type": "proficiency"
+      }
+    ],
+    "group": "Expertise (Rogue)",
+    "url": "http://www.dnd5eapi.co/api/features/276",
+    "desc": [
+      "Your proficiency bonus is doubled for any ability check you make for this skill."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fc1",
+    "index": 277,
+    "name": "Expertise: Stealth",
+    "prerequisites": [
+      {
+        "proficiency": "http://www.dnd5eapi.co/api/proficiencies/121",
+        "type": "proficiency"
+      }
+    ],
+    "group": "Expertise (Rogue)",
+    "url": "http://www.dnd5eapi.co/api/features/277",
+    "desc": [
+      "Your proficiency bonus is doubled for any ability check you make for this skill."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fc2",
+    "index": 278,
+    "name": "Expertise: Survival",
+    "prerequisites": [
+      {
+        "proficiency": "http://www.dnd5eapi.co/api/proficiencies/122",
+        "type": "proficiency"
+      }
+    ],
+    "group": "Expertise (Rogue)",
+    "url": "http://www.dnd5eapi.co/api/features/278",
+    "desc": [
+      "Your proficiency bonus is doubled for any ability check you make for this skill."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fc4",
+    "index": 279,
+    "name": "Expertise: Thieves' Tools",
+    "prerequisites": [
+      {
+        "proficiency": "http://www.dnd5eapi.co/api/proficiencies/96",
+        "type": "proficiency"
+      }
+    ],
+    "group": "Expertise (Rogue)",
+    "url": "http://www.dnd5eapi.co/api/features/279",
+    "desc": [
+      "Your proficiency bonus is doubled for any ability check you make for this skill."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fc3",
+    "index": 280,
+    "name": "Sneak Attack",
+    "level": 1,
+    "url": "http://www.dnd5eapi.co/api/features/280",
+    "desc": [
+      "Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.",
+      "You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.",
+      "The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fc7",
+    "index": 281,
+    "name": "Thieves' Cant",
+    "level": 1,
+    "url": "http://www.dnd5eapi.co/api/features/281",
+    "desc": [
+      "During your rogue training you learned thieves' cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves' cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly.",
+      "In addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thieves' guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fc6",
+    "index": 282,
+    "name": "Cunning Action",
+    "level": 2,
+    "url": "http://www.dnd5eapi.co/api/features/282",
+    "desc": [
+      "Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the Dash, Disengage, or Hide action."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fc8",
+    "index": 283,
+    "name": "Roguish Archetype",
+    "level": 3,
+    "url": "http://www.dnd5eapi.co/api/features/283",
+    "desc": [
+      "At 3rd level, you choose an archetype that you emulate in the exercise of your rogue abilities. The Thief archetype is detailed at the bottom of this page. Additional archetypes are available in the original source material. Your archetype choice grants you features at 3rd level and then again at 9th, 13th, and 17th level."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fc9",
+    "index": 284,
+    "name": "Fast Hands",
+    "level": 3,
+    "url": "http://www.dnd5eapi.co/api/features/284",
+    "desc": [
+      "Starting at 3rd level, you can use the bonus action granted by your Cunning Action to make a Dexterity (Sleight of Hand) check, use your thieves' tools to disarm a trap or open a lock, or take the Use an Object action."
+    ],
+    "subclass": {
+      "url": "http://www.dnd5eapi.co/api/subclasses/9",
+      "name": "Thief"
+    },
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fca",
+    "index": 285,
+    "name": "Second-Story Work",
+    "level": 3,
+    "url": "http://www.dnd5eapi.co/api/features/285",
+    "desc": [
+      "When you choose this archetype at 3rd level, you gain the ability to climb faster than normal; climbing no longer costs you extra movement.",
+      "In addition, when you make a running jump, the distance you cover increases by a number of feet equal to your Dexterity modifier."
+    ],
+    "subclass": {
+      "url": "http://www.dnd5eapi.co/api/subclasses/9",
+      "name": "Thief"
+    },
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fcc",
+    "index": 286,
+    "name": "Ability Score Improvement 1",
+    "level": 4,
+    "url": "http://www.dnd5eapi.co/api/features/286",
+    "desc": [
+      "When you reach 4th level, and again at 8th, 10th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fcd",
+    "index": 287,
+    "name": "Uncanny Dodge",
+    "level": 5,
+    "url": "http://www.dnd5eapi.co/api/features/287",
+    "desc": [
+      "Starting at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fd8",
+    "index": 288,
+    "name": "Choose: Expertise 2",
+    "level": 6,
+    "choice": {
+      "choose": 2,
+      "type": "feature",
+      "from": [
+        {
+          "name": "Expertise: Acrobatics",
+          "url": "http://www.dnd5eapi.co/api/features/278"
+        },
+        {
+          "name": "Expertise: Animal Handling",
+          "url": "http://www.dnd5eapi.co/api/features/277"
+        },
+        {
+          "name": "Expertise: Arcana",
+          "url": "http://www.dnd5eapi.co/api/features/261"
+        },
+        {
+          "name": "Expertise: Athletics",
+          "url": "http://www.dnd5eapi.co/api/features/262"
+        },
+        {
+          "name": "Expertise: Deception",
+          "url": "http://www.dnd5eapi.co/api/features/263"
+        },
+        {
+          "name": "Expertise: History",
+          "url": "http://www.dnd5eapi.co/api/features/264"
+        },
+        {
+          "name": "Expertise: Insight",
+          "url": "http://www.dnd5eapi.co/api/features/265"
+        },
+        {
+          "name": "Expertise: Intimidation",
+          "url": "http://www.dnd5eapi.co/api/features/266"
+        },
+        {
+          "name": "Expertise: Investigation",
+          "url": "http://www.dnd5eapi.co/api/features/267"
+        },
+        {
+          "name": "Expertise: Medicine",
+          "url": "http://www.dnd5eapi.co/api/features/268"
+        },
+        {
+          "name": "Expertise: Nature",
+          "url": "http://www.dnd5eapi.co/api/features/269"
+        },
+        {
+          "name": "Expertise: Perception",
+          "url": "http://www.dnd5eapi.co/api/features/270"
+        },
+        {
+          "name": "Expertise: Performance",
+          "url": "http://www.dnd5eapi.co/api/features/271"
+        },
+        {
+          "name": "Expertise: Persuasion",
+          "url": "http://www.dnd5eapi.co/api/features/272"
+        },
+        {
+          "name": "Expertise: Religion",
+          "url": "http://www.dnd5eapi.co/api/features/273"
+        },
+        {
+          "name": "Expertise: Sleight of Hand",
+          "url": "http://www.dnd5eapi.co/api/features/274"
+        },
+        {
+          "name": "Expertise: Stealth",
+          "url": "http://www.dnd5eapi.co/api/features/275"
+        },
+        {
+          "name": "Expertise: Survival",
+          "url": "http://www.dnd5eapi.co/api/features/276"
+        }
+      ]
+    },
+    "url": "http://www.dnd5eapi.co/api/features/288",
+    "desc": [
+      "At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves' tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.",
+      "At 6th level, you can choose two more of your proficiencies (in skills or with thieves' tools) to gain this benefit"
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fcf",
+    "index": 289,
+    "name": "Evasion",
+    "level": 7,
+    "url": "http://www.dnd5eapi.co/api/features/289",
+    "desc": [
+      "Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an ice storm spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fce",
+    "index": 290,
+    "name": "Ability Score Improvement 2",
+    "level": 8,
+    "url": "http://www.dnd5eapi.co/api/features/290",
+    "desc": [
+      "When you reach 4th level, and again at 8th, 10th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fd4",
+    "index": 291,
+    "name": "Supreme Sneak",
+    "level": 9,
+    "url": "http://www.dnd5eapi.co/api/features/291",
+    "desc": [
+      "Starting at 9th level, you have advantage on a Dexterity (Stealth) check if you move no more than half your speed on the same turn."
+    ],
+    "subclass": {
+      "url": "http://www.dnd5eapi.co/api/subclasses/9",
+      "name": "Thief"
+    },
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fd1",
+    "index": 292,
+    "name": "Ability Score Improvement 3",
+    "level": 10,
+    "url": "http://www.dnd5eapi.co/api/features/292",
+    "desc": [
+      "When you reach 4th level, and again at 8th, 10th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fd0",
+    "index": 293,
+    "name": "Reliable Talent",
+    "level": 11,
+    "url": "http://www.dnd5eapi.co/api/features/293",
+    "desc": [
+      "By 11th level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add your proficiency bonus, you can treat a d20 roll of 9 or lower as a 10."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fd3",
+    "index": 294,
+    "name": "Ability Score Improvement 4",
+    "level": 12,
+    "url": "http://www.dnd5eapi.co/api/features/294",
+    "desc": [
+      "When you reach 4th level, and again at 8th, 10th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fd2",
+    "index": 295,
+    "name": "Use Magic Device",
+    "level": 13,
+    "url": "http://www.dnd5eapi.co/api/features/295",
+    "desc": [
+      "By 13th level, you have learned enough about the workings of magic that you can improvise the use of items even when they are not intended for you. You ignore all class, race, and level requirements on the use of magic items."
+    ],
+    "subclass": {
+      "url": "http://www.dnd5eapi.co/api/subclasses/9",
+      "name": "Thief"
+    },
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fd5",
+    "index": 296,
+    "name": "Blindsense",
+    "level": 14,
+    "url": "http://www.dnd5eapi.co/api/features/296",
+    "desc": [
+      "Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or invisible creature within 10 feet of you."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fd6",
+    "index": 297,
+    "name": "Slippery Mind",
+    "level": 15,
+    "url": "http://www.dnd5eapi.co/api/features/297",
+    "desc": [
+      "By 15th level, you have acquired greater mental strength. You gain proficiency in Wisdom saving throws."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fd7",
+    "index": 298,
+    "name": "Ability Score Improvement 5",
+    "level": 16,
+    "url": "http://www.dnd5eapi.co/api/features/298",
+    "desc": [
+      "When you reach 4th level, and again at 8th, 10th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fd9",
+    "index": 299,
+    "name": "Thief's Reflexes",
+    "level": 17,
+    "url": "http://www.dnd5eapi.co/api/features/299",
+    "desc": [
+      "When you reach 17th level, you have become adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10. You can't use this feature when you are surprised."
+    ],
+    "subclass": {
+      "url": "http://www.dnd5eapi.co/api/subclasses/9",
+      "name": "Thief"
+    },
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fdd",
+    "index": 300,
+    "name": "Elusive",
+    "level": 18,
+    "url": "http://www.dnd5eapi.co/api/features/300",
+    "desc": [
+      "Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren't incapacitated."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fe5",
+    "index": 301,
+    "name": "Ability Score Improvement 6",
+    "level": 19,
+    "url": "http://www.dnd5eapi.co/api/features/301",
+    "desc": [
+      "When you reach 4th level, and again at 8th, 10th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  },
+  {
+    "_id": "5bce912d5b7768e792017fda",
+    "index": 302,
+    "name": "Stroke of Luck",
+    "level": 20,
+    "url": "http://www.dnd5eapi.co/api/features/302",
+    "desc": [
+      "At 20th level, you have an uncanny knack for succeeding when you need to. If your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the d20 roll as a 20.",
+      "Once you use this feature, you can't use it again until you finish a short or long rest."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/9", "name": "Rogue" }
+  }
+],
+ "Wizard": [
+    {
+    "_id": "5bce912d5b7768e79201803b",
+    "index": 400,
+    "name": "Spellcasting",
+    "level": 1,
+    "reference": "http://www.dnd5eapi.co/api/spellcasting/wizard",
+    "url": "http://www.dnd5eapi.co/api/features/400",
+    "desc": [
+      "As a student of arcane magic, you have a spellbook containing spells that show the first glimmerings of your true power."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/12","name": "Wizard" }
+  },
+  {
+    "_id": "5bce912d5b7768e79201803d",
+    "index": 401,
+    "name": "Arcane Recovery",
+    "level": 1,
+    "url": "http://www.dnd5eapi.co/api/features/401",
+    "desc": [
+      "You have learned to regain some of your magical energy by studying your spellbook. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the slots can be 6th level or higher.",
+      "For example, if you're a 4th-level wizard, you can recover up to two levels worth of spell slots. You can recover either a 2nd-level spell slot or two 1st-level spell slots."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/12","name": "Wizard" }
+  },
+  {
+    "_id": "5bce912d5b7768e79201803e",
+    "index": 402,
+    "name": "Arcane Tradition",
+    "level": 2,
+    "url": "http://www.dnd5eapi.co/api/features/402",
+    "desc": [
+      "When you reach 2nd level, you choose an arcane tradition, shaping your practice of magic through one of eight schools: Abjuration, Conjuration, Divination, Enchantment, Evocation, Illusion, Necromancy, or Transmutation, all detailed at the end of the class description.",
+      "Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/12","name": "Wizard" }
+  },
+  {
+    "_id": "5bce912d5b7768e792018041",
+    "index": 403,
+    "name": "Evocation Savant",
+    "level": 2,
+    "url": "http://www.dnd5eapi.co/api/features/403",
+    "desc": [
+      "Beginning when you select this school at 2nd level, the gold and time you must spend to copy an evocation spell into your spellbook is halved."
+    ],
+    "subclass": {
+      "url": "http://www.dnd5eapi.co/api/subclasses/12",
+      "name": "Evocation"
+    },
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/12","name": "Wizard" }
+  },
+  {
+    "_id": "5bce912d5b7768e792018042",
+    "index": 404,
+    "name": "Sculpt Spells",
+    "level": 2,
+    "url": "http://www.dnd5eapi.co/api/features/404",
+    "desc": [
+      "Beginning at 2nd level, you can create pockets of relative safety within the effects of your evocation spells. When you cast an evocation spell that affects other creatures that you can see, you can choose a number of them equal to 1 + the spell's level. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage on a successful save."
+    ],
+    "subclass": {
+      "url": "http://www.dnd5eapi.co/api/subclasses/12",
+      "name": "Evocation"
+    },
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/12","name": "Wizard" }
+  },
+  {
+    "_id": "5bce912d5b7768e792018043",
+    "index": 405,
+    "name": "Ability Score Improvement 1",
+    "level": 4,
+    "url": "http://www.dnd5eapi.co/api/features/405",
+    "desc": [
+      "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/12","name": "Wizard" }
+  },
+  {
+    "_id": "5bce912d5b7768e792018044",
+    "index": 406,
+    "name": "Potent Cantrip",
+    "level": 6,
+    "url": "http://www.dnd5eapi.co/api/features/406",
+    "desc": [
+      "Starting at 6th level, your damaging cantrips affect even creatures that avoid the brunt of the effect. When a creature succeeds on a saving throw against your cantrip, the creature takes half the cantrip's damage (if any) but suffers no additional effect from the cantrip."
+    ],
+    "subclass": {
+      "url": "http://www.dnd5eapi.co/api/subclasses/12",
+      "name": "Evocation"
+    },
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/12","name": "Wizard" }
+  },
+  {
+    "_id": "5bce912d5b7768e792018048",
+    "index": 407,
+    "name": "Ability Score Improvement 2",
+    "level": 8,
+    "url": "http://www.dnd5eapi.co/api/features/407",
+    "desc": [
+      "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/12","name": "Wizard" }
+  },
+  {
+    "_id": "5bce912d5b7768e792018045",
+    "index": 408,
+    "name": "Empowered Evocation",
+    "level": 10,
+    "url": "http://www.dnd5eapi.co/api/features/408",
+    "desc": [
+      "Beginning at 10th level, you can add your Intelligence modifier to one damage roll of any wizard evocation spell you cast."
+    ],
+    "subclass": {
+      "url": "http://www.dnd5eapi.co/api/subclasses/12",
+      "name": "Evocation"
+    },
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/12","name": "Wizard" }
+  },
+  {
+    "_id": "5bce912d5b7768e792018046",
+    "index": 409,
+    "name": "Ability Score Improvement 3",
+    "level": 12,
+    "url": "http://www.dnd5eapi.co/api/features/409",
+    "desc": [
+      "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/12","name": "Wizard" }
+  },
+  {
+    "_id": "5bce912d5b7768e792018047",
+    "index": 410,
+    "name": "Overchannel",
+    "level": 14,
+    "url": "http://www.dnd5eapi.co/api/features/410",
+    "desc": [
+      "Starting at 14th level, you can increase the power of your simpler spells. When you cast a wizard spell of 1st through 5th level that deals damage, you can deal maximum damage with that spell.",
+      "The first time you do so, you suffer no adverse effect. If you use this feature again before you finish a long rest, you take 2d12 necrotic damage for each level of the spell, immediately after you cast it. Each time you use this feature again before finishing a long rest, the necrotic damage per spell level increases by 1d12. This damage ignores resistance and immunity."
+    ],
+    "subclass": {
+      "url": "http://www.dnd5eapi.co/api/subclasses/12",
+      "name": "Evocation"
+    },
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/12","name": "Wizard" }
+  },
+  {
+    "_id": "5bce912d5b7768e792018049",
+    "index": 411,
+    "name": "Ability Score Improvement 4",
+    "level": 16,
+    "url": "http://www.dnd5eapi.co/api/features/411",
+    "desc": [
+      "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/12","name": "Wizard" }
+  },
+  {
+    "_id": "5bce912d5b7768e79201804a",
+    "index": 412,
+    "name": "Spell Mastery",
+    "level": 18,
+    "url": "http://www.dnd5eapi.co/api/features/412",
+    "desc": [
+      "At 18th level, you have achieved such mastery over certain spells that you can cast them at will. Choose a 1st-level wizard spell and a 2nd-level wizard spell that are in your spellbook. You can cast those spells at their lowest level without expending a spell slot when you have them prepared. If you want to cast either spell at a higher level, you must expend a spell slot as normal.",
+      "By spending 8 hours in study, you can exchange one or both of the spells you chose for different spells of the same levels."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/12","name": "Wizard" }
+  },
+  {
+    "_id": "5bce912d5b7768e79201804b",
+    "index": 413,
+    "name": "Ability Score Improvement 5",
+    "level": 19,
+    "url": "http://www.dnd5eapi.co/api/features/413",
+    "desc": [
+      "When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/12","name": "Wizard" }
+  },
+  {
+    "_id": "5bce912d5b7768e79201804c",
+    "index": 414,
+    "name": "Signature Spell",
+    "level": 20,
+    "url": "http://www.dnd5eapi.co/api/features/414",
+    "desc": [
+      "When you reach 20th level, you gain mastery over two powerful spells and can cast them with little effort. Choose two 3rd-level wizard spells in your spellbook as your signature spells. You always have these spells prepared, they don't count against the number of spells you have prepared, and you can cast each of them once at 3rd level without expending a spell slot. When you do so, you can't do so again until you finish a short or long rest.",
+      "If you want to cast either spell at a higher level, you must expend a spell slot as normal."
+    ],
+    "class": { "url": "http://www.dnd5eapi.co/api/classes/12","name": "Wizard" }
+  }
+]
+}
